@@ -1,0 +1,38 @@
+{
+  "1": {
+    "id": 1,
+    "name": "John Doe",
+    "age": 35,
+    "email": "john.doe@example.com",
+    "phone": "555-0101",
+    "diagnosis": "Hypertension",
+    "admission_date": "2025-11-15"
+  },
+  "2": {
+    "id": 2,
+    "name": "Jane Smith",
+    "age": 28,
+    "email": "jane.smith@example.com",
+    "phone": "555-0102",
+    "diagnosis": "Diabetes Type 2",
+    "admission_date": "2025-11-18"
+  },
+  "3": {
+    "id": 3,
+    "name": "Robert Johnson",
+    "age": 52,
+    "email": "robert.j@example.com",
+    "phone": "555-0103",
+    "diagnosis": "Heart Disease",
+    "admission_date": "2025-11-20"
+  },
+  "4": {
+    "id": 4,
+    "name": "Emily Brown",
+    "age": 41,
+    "email": "emily.brown@example.com",
+    "phone": "555-0104",
+    "diagnosis": "Asthma",
+    "admission_date": "2025-11-21"
+  }
+}
