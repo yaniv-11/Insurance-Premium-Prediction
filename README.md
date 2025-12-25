@@ -1,4 +1,6 @@
 Insurance Premium Prediction API
+
+
 A machine learning API built with FastAPI for predicting insurance premiums based on patient data. The system includes a trained ML model, Docker support for easy deployment, and a RESTful interface for predictions.
 
 ✨ Features
