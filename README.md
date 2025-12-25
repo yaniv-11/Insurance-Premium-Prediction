@@ -4,6 +4,7 @@ Insurance Premium Prediction API
 A machine learning API built with FastAPI for predicting insurance premiums based on patient data. The system includes a trained ML model, Docker support for easy deployment, and a RESTful interface for predictions.
 
 ✨ Features
+
 FastAPI Backend: High-performance, modern Python web framework
 
 Machine Learning Model: Trained model for insurance premium prediction
@@ -17,6 +18,7 @@ Example Data: Includes sample datasets (insurance.csv, patients.json)
 Jupyter Notebook: Interactive model training and exploration
 
 Local Installation
+
 Clone the repository:
 
 bash
@@ -32,6 +34,7 @@ bash
 uvicorn app:app --reload
 
 🚀 Usage
+
 Once the server is running (default: http://localhost:8000), you can:
 
 Access the interactive API documentation:
@@ -45,7 +48,9 @@ Test the API using the sample data in patients.json
 Make predictions via HTTP requests to the /predict endpoint
 
 🔌 API Endpoints
+
 POST /predict
+
 Predict insurance premium based on patient data.
 
 Request Body:
@@ -66,7 +71,9 @@ json
   "predicted_premium": 8500.75,
   "status": "success"
 }
+
 GET /health
+
 Check API health status.
 
 Response:
@@ -77,6 +84,7 @@ json
   "timestamp": "2025-12-25T10:30:00Z"
 }
 🤖 Model Training
+
 The machine learning model was developed in the fastapi_ml_model.ipynb Jupyter notebook, which includes:
 
 Data exploration and preprocessing
@@ -102,6 +110,7 @@ Training regression models
 Model evaluation and selection
 
 🐳 Docker Deployment
+
 The project includes a Dockerfile for containerized deployment:
 
 Build the Docker image:
@@ -112,6 +121,7 @@ bash
 docker run -p 8000:8000 insurance-prediction-api
 
 📊 Dataset
+
 The model is trained on the insurance.csv dataset containing:
 
 age: Age of primary beneficiary
